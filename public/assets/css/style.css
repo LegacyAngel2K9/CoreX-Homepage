@@ -1,0 +1,91 @@
+/* =====================================
+   CoreX Homepage Styles
+   ===================================== */
+
+/* Global Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40 !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8d210 !important;
+}
+
+/* Hero Section */
+header {
+    background: linear-gradient(to right, #007bff, #00d4ff);
+    padding: 60px 0;
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+    color: white !important;
+}
+
+/* Buttons */
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Team Section */
+#team img {
+    border: 3px solid white;
+    transition: transform 0.3s ease-in-out;
+}
+
+#team img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}

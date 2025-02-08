@@ -1,0 +1,52 @@
+# =====================================
+# CoreX-Docs .gitignore
+# =====================================
+
+# Ignore System and Environment Files
+.env
+phpunit.xml
+*.log
+*.cache
+*.lock
+*.sqlite
+Thumbs.db
+.DS_Store
+
+# Ignore Composer & Vendor Files
+/vendor/
+/composer.phar
+/composer.lock
+
+# Ignore Writable Folder (Logs, Cache, etc.)
+/writable/*
+!/writable/index.html
+!/writable/uploads/
+
+# Ignore Cache & Debugging Files
+/node_modules/
+/npm-debug.log
+/yarn.lock
+/.phpunit.result.cache
+
+# Ignore CI4 Generated Files
+/build/
+/tests/
+/documentation/
+/coverage/
+
+# Ignore IDE/Editor Specific Files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.vscode/
+*.idea/
+*.project
+*.classpath
+*.settings/
+
+# Ignore Public Assets that Should Not be Tracked
+public/uploads/*
+!public/uploads/.gitkeep
+public/assets/tmp/
+public/assets/cache/
